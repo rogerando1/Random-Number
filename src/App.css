@@ -24,7 +24,38 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+}
 
+@media screen and (max-width: 600px ){ 
+  .center{
+    
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .minmax{
+    
+    min-height: auto;
+    min-width: 50rem auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  h2 .label{
+    font-weight: 100;
+    text-align: center; 
+  }
+  
+  .minmax input{
+    align-items: center;
+    min-height: 5vh auto;
+    min-width: 10vh auto;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;  
+  }
 }
 
 .minmax{
@@ -53,13 +84,6 @@ h2 .label{
 
 ::placeholder{
   font-size: 15px;
-}
-
-.done button{
-  min-height: 3.7vh auto;
-  min-width: 7vh auto;
-  font-size: 15px;
-  padding: 5px;
 }
 
 .genRandom{
