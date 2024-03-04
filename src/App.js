@@ -49,7 +49,7 @@ function App() {
     <div className='container'>
       <div className='header'></div>
       <div className='title'>
-        <h1>Random Number Generator</h1>
+        <h1>Random Number Picker</h1>
       </div>
       <div className='center'>
         <div className='minmax'>
