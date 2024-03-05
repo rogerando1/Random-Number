@@ -26,48 +26,44 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 600px ){ 
-  .center{
-    
-    align-items: flex-end;
-    justify-content: center;
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    height: auto; 
+    text-wrap: wrap;
+  }
+  
+   div .minmax{
+    grid-template-columns: 2fr 1fr; 
+    display: grid;
+    height: 30px;
+    width: 50rem;
+    padding: 10px; 
   }
 
-  .minmax{
-    
-    min-height: auto;
-    min-width: 50rem auto;
-    padding: 10px;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  
-  h2 .label{
-    font-weight: 100;
-    text-align: center; 
-  }
-  
-  .minmax input{
-    align-items: center;
-    min-height: 5vh auto;
-    min-width: 10vh auto;
-    font-size: 16px;
-    text-align: center;
-    padding: 5px;
-    margin-bottom: 10px;  
-  }
+ div .buttonss{
+    grid-template-columns:1fr; 
+    display: grid;
+    margin-top: 100px;
+ }
+
+ div .genNumber{
+  height: 290px;
+ }
+
+
 }
 
 .minmax{
   display: flex;
-  min-height: auto;
+  min-height: 10px auto;
   min-width: 50rem auto;
   padding: 10px;
   align-items: center;
   justify-content: space-evenly;
 }
 
-h2 .label{
+h1{
+  font-size: 18px;
   font-weight: 100;
   text-align: center; 
 }

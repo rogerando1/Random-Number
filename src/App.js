@@ -53,9 +53,9 @@ function App() {
       </div>
       <div className='center'>
         <div className='minmax'>
-          <h2 className='label'>
+          <h1 className='label'>
             Minimum 
-          </h2>
+          </h1>
           <input
             type='text'
             id='min'
@@ -63,9 +63,9 @@ function App() {
             value={min}
             onChange={handleMinChange}
           />
-          <h2 className='label'>
+          <h1 className='label'>
             Maximum
-          </h2>
+          </h1>
           <input
             type='text'
             id='max'
@@ -75,6 +75,7 @@ function App() {
           />
         </div>
       </div>
+      <div className='buttonss'>
       <div className='genRandom'>
         <button onClick={generateRandomNumber}>
           Generate Random Number
@@ -88,6 +89,8 @@ function App() {
           Reset
         </button>
       </div>
+      </div>
+      
     </div>
   );
 }
